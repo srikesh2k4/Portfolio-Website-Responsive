@@ -1,0 +1,637 @@
+@font-face {
+  font-family: "HelveticaNowDisplay-Light";
+  src: url(font/HelveticaNowDisplay-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  min-width: 398px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.menu {
+  min-height: -moz-min-content;
+  min-height: min-content;
+  min-width: -moz-min-content;
+  min-width: min-content;
+  min-width: 398px;
+}
+.menu .menu_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(52, 75, 54);
+}
+.menu .menu_div .logo {
+  margin: 1rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  aspect-ratio: 1/1;
+  background-color: rgb(250, 172, 26);
+  border-radius: 2rem;
+}
+.menu .menu_div .logo p {
+  color: rgb(52, 75, 54);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.menu .menu_div h1 {
+  font-family: "HelveticaNowDisplay-Light";
+  font-weight: 400;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+.menu .menu_div .main_menu {
+  margin-left: auto;
+  padding-right: 1rem;
+}
+.menu .menu_div .main_menu .menu_option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  background-color: rgb(250, 172, 26);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.menu {
+  background-color: black;
+}
+
+main .hello_there_section .hello_there {
+  display: flex;
+  padding-top: 4rem;
+  justify-content: center;
+}
+main .My_Name {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+main .My_Name h1 {
+  font-family: "HelveticaNowDisplay-Light";
+  font-size: 2.9rem;
+  font-weight: bolder;
+  text-align: center;
+}
+main .My_Name span {
+  color: rgb(250, 172, 26);
+}
+main .about_me div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+main .about_me div p {
+  text-align: center;
+  opacity: 60%;
+}
+main .about_me div br {
+  display: none;
+}
+main .view_my_portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .view_my_portfolio .view {
+  display: flex;
+  justify-content: center;
+  height: -moz-max-content;
+  height: max-content;
+  width: -moz-max-content;
+  width: max-content;
+  align-items: center;
+  background-color: rgb(250, 172, 26);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+main .view_my_portfolio .view .b1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: rgb(56, 56, 56);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  padding: 0.7rem;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: white;
+}
+main .view_my_portfolio .view .b1 p {
+  font-size: 1rem;
+  font-family: "HelveticaNowDisplay-Light";
+}
+main .view_my_portfolio .view .b2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 2rem;
+  border-radius: 100px;
+  aspect-ratio: 1/1;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  padding: 0.1rem;
+  margin: 0.2rem;
+}
+main .view_my_portfolio .view2 {
+  box-sizing: border-box;
+  border: solid 2px;
+  height: 100%;
+  margin-top: 1rem;
+  padding: 0.8rem 4rem;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+main .view_my_portfolio .view2 p {
+  font-size: 1.2rem;
+  font-family: "HelveticaNowDisplay-Light";
+}
+main .myphoto div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .myphoto div img {
+  width: 25rem;
+  margin-top: 1rem;
+}
+main .view-2 {
+  width: 100%;
+  padding: 3rem 5rem;
+  display: flex;
+  justify-content: center;
+}
+main .view-2 .marque {
+  width: 70%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+          mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+}
+main .view-2 .marque .text {
+  animation: marquee 10s linear infinite both;
+  gap: 1rem;
+  padding: 0 0.5rem;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 300px;
+  font-family: "HelveticaNowDisplay-Light";
+  -webkit-animation: marquee 10s linear infinite both;
+}
+main .view-2 .marque .text .a:hover {
+  color: rgb(250, 172, 26);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+main .skill .title {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+main .skill .title .p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "HelveticaNowDisplay-Light";
+  font-size: 5rem;
+}
+main .skill .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+main .skill .html {
+  grid-area: a;
+  border: solid black 1px;
+  height: 20rem;
+  width: 20rem;
+  background-size: cover;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+main .skill .css {
+  grid-area: b;
+  border: solid black 1px;
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+main .skill .scss {
+  grid-area: c;
+  border: solid black 1px;
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+main .skill .tailwind {
+  grid-area: d;
+  border: solid black 1px;
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+main .skill .javascript {
+  grid-area: e;
+  border: solid black 1px;
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+main .skill .react {
+  grid-area: f;
+  border: solid black 1px;
+  height: 20rem;
+  width: 20rem;
+  margin: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.footer_m .footer_div {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(52, 75, 54);
+  min-width: 398px;
+  margin-bottom: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-family: "HelveticaNowDisplay-Light";
+}
+
+@media (min-width: 1020px) {
+  main {
+    display: grid;
+    grid-template-areas: "l1 r" "l2 r" "l3 r" "l4 r";
+  }
+  main .hello_there_section {
+    grid-area: l1;
+  }
+  main .hello_there_section .hello_there {
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 11rem;
+    justify-content: start;
+  }
+  main .My_Name {
+    grid-area: l2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
+  main .My_Name h1 {
+    font-family: "HelveticaNowDisplay-Light";
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+  main .My_Name span {
+    color: rgb(250, 172, 26);
+  }
+  main .about_me {
+    grid-area: l3;
+  }
+  main .about_me div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 2rem;
+  }
+  main .about_me div p {
+    text-align: center;
+    opacity: 60%;
+  }
+  main .about_me div br {
+    display: flex;
+  }
+  main .view_my_portfolio {
+    grid-area: l4;
+    height: 100%;
+    width: 100%;
+  }
+  main .view_my_portfolio .vm {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-left: 25rem;
+  }
+  main .view_my_portfolio .vm .view {
+    display: flex;
+    justify-content: center;
+    height: -moz-max-content;
+    height: max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0.4rem;
+    align-items: center;
+    background-color: rgb(250, 172, 26);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+  main .view_my_portfolio .vm .view .b1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: rgb(56, 56, 56);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding: 0.7rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    color: white;
+  }
+  main .view_my_portfolio .vm .view .b1 p {
+    font-size: 1rem;
+    font-family: "HelveticaNowDisplay-Light";
+  }
+  main .view_my_portfolio .vm .view .b2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 2rem;
+    border-radius: 100px;
+    aspect-ratio: 1/1;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 0.1rem;
+    margin: 0.2rem;
+  }
+  main .view_my_portfolio .vm .view2 {
+    box-sizing: border-box;
+    border: solid 2px;
+    height: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 0.8rem 4rem;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+  }
+  main .view_my_portfolio .vm .view2 p {
+    font-size: 1.2rem;
+    font-family: "HelveticaNowDisplay-Light";
+  }
+  main .myphoto {
+    width: 100%;
+    grid-area: r;
+  }
+  main .myphoto div {
+    width: 100%;
+    position: absolute;
+    top: 6rem;
+    left: 20rem;
+  }
+  main .myphoto div img {
+    width: 35rem;
+    margin-top: 0.5rem;
+  }
+  main .view-2 {
+    position: relative;
+    top: -3rem;
+    width: 100%;
+    padding: 3rem 5rem;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  main .view-2 .marque {
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+            mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0) 20%, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+  }
+  main .view-2 .marque .text {
+    animation: marquee 10s linear infinite both;
+    gap: 1rem;
+    padding: 0 0.5rem;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 300px;
+    font-family: "HelveticaNowDisplay-Light";
+    -webkit-animation: marquee 10s linear infinite both;
+  }
+  main .view-2 .marque .text .a:hover {
+    color: rgb(250, 172, 26);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+  }
+  main .skill {
+    position: absolute;
+    top: 50rem;
+    left: 11rem;
+  }
+  main .skill .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+  }
+  main .skill .title .p {
+    left: 10rem;
+    font-family: "HelveticaNowDisplay-Light";
+    font-size: 5rem;
+  }
+  main .skill .images {
+    width: 100%;
+    display: grid;
+    left: auto;
+    grid-template-areas: "a b c" "d e f";
+  }
+  main .skill .html_1 {
+    grid-area: a;
+    border: solid black 1px;
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main .skill .css {
+    grid-area: b;
+    border: solid black 1px;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main .skill .scss {
+    grid-area: c;
+    border: solid black 1px;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main .skill .tailwind {
+    grid-area: d;
+    border: solid black 1px;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main .skill .javascript {
+    grid-area: e;
+    border: solid black 1px;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main .skill .react {
+    grid-area: f;
+    border: solid black 1px;
+    height: 20rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .footer_m .footer_div {
+    margin-top: 60rem;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(52, 75, 54);
+    min-width: 398px;
+    margin-bottom: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-family: "HelveticaNowDisplay-Light";
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+}/*# sourceMappingURL=style.css.map */
